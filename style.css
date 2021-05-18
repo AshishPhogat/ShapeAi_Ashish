@@ -1,0 +1,76 @@
+img{
+  width:50%;
+}
+.start{
+  display:flex;
+  background-color:orange;
+  width:100%;
+}
+button{
+  position: relative;
+  align-self:center;
+  height:2em;
+  width:5em;
+  margin-top:50px;
+  background-color:grey;
+  color:blue;
+  margin-bottom:40px;
+
+}
+form{
+  text-align:center;
+  margin-left:30px;
+  background-color:orange;
+  margin-top:50px;
+  margin-right:10px;
+}
+h1{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:burlywood;
+}
+body{
+  background-color:darkgreen;
+}
+input{
+   margin-left:100px;
+    margin-right:100px;
+    color:red;
+    background-color:;
+    margin-top:50px;
+}
+h2{
+  color:#e0f0e8;
+}
+.image{
+  background-color:yellow;
+  width:100%;
+  align-self:center;
+
+}
+.logo{
+width:60%;
+}
+.topic{
+  font-size:2em;
+  color:brown;
+
+}
+.about p{
+  color:#e0f0e8;
+  width:80%;
+  align-self:strech center;
+  margin-left:40px;
+}
+.one {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
+.one::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin-left:200px;
+}
